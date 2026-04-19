@@ -19,7 +19,7 @@
 
 ## 🚀 Professional Profile
 
-I am a Software Engineer with a Bachelor’s degree from the Virtual University of Pakistan, currently focused on bridging the gap between traditional software architecture and the frontier of Agentic AI. With over half a decade of experience in **Unity and C# Systems**, I have pivoted into architecting **Multi-Agent Workflows** that prioritize autonomy, privacy, and production-grade stability.
+I am a Software Engineer with a Bachelor’s degree from the PAF KIET University of Pakistan, currently focused on bridging the gap between traditional software architecture and the frontier of Agentic AI. With over half a decade of experience in **Unity and C# Systems**, I have pivoted into architecting **Multi-Agent Workflows** that prioritize autonomy, privacy, and production-grade stability.
 
 - 🤖 **AI Architect:** Expert in designing cyclic, self-correcting state machines using **LangGraph**.
 - ⚙️ **Systems Engineer:** Specialist in "Self-Healing" build pipelines and automated code auditing.
