@@ -61,7 +61,6 @@ These repositories and documentation samples represent my approach to high-compl
 - **Semantic Asset Navigator (RAG):** Unity extension using local vector embeddings (ChromaDB).
 - **Self-Healing Build System:** LangGraph-driven agent for autonomous error resolution.
 - **Autonomous B2B Lead Gen:** Research and outreach engine utilizing Tavily AI.
-- **Project Alya:** Full-stack social orchestration featuring advanced React swiping mechanics.
 
 ---
 
