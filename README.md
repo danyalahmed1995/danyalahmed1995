@@ -28,25 +28,28 @@ I am a Software Engineer with a Bachelor’s degree from the Virtual University 
 
 ---
 
-## ⚡ Technical Stack
+## ⚡ Tech Stack
 
-### 🧠 Artificial Intelligence & Orchestration
-- **Frameworks:** LangChain, LangGraph, AutoGen, CrewAI.
-- **Vector Databases:** ChromaDB (Local-first), Pinecone, Milvus.
-- **Retrieval Logic:** RAG (Retrieval-Augmented Generation), Semantic Chunking, Cosine Similarity.
-- **LLM Integration:** Llama 3.3 (70B/8B), Groq (High-speed inference), OpenAI, Anthropic (Claude).
-- **Tooling:** Tavily AI (Deep Research), Prompt Engineering, Agentic Memory Management.
+### 🧠 AI & Agentic Orchestration
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,ts,nodejs" />
+  <br>
+  <img src="https://img.shields.io/badge/LangChain-121011?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-6D28D9?style=for-the-badge&logo=graph&logoColor=white" />
+  <img src="https://img.shields.io/badge/ChromaDB-FFDC00?style=for-the-badge&logo=databricks&logoColor=black" />
+  <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" />
+  <img src="https://img.shields.io/badge/Llama_3.3-0668E1?style=for-the-badge&logo=meta&logoColor=white" />
+</p>
 
-### 🎮 Game Development & Systems
-- **Engine:** Unity3D (Senior Level).
-- **Languages:** C#, C++, Python, TypeScript.
-- **Networking:** Photon Bolt/PUN, Mirror, Firebase Real-time Database.
-- **Editor Tooling:** Custom C# Editor Extensions, Automated Asset Pipelines.
+### 🎮 Game & Systems Engineering
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=unity,cs,cpp" />
+</p>
 
-### 🌐 Full-Stack & DevOps
-- **Frontend:** React, Next.js, Tailwind CSS.
-- **Backend:** Node.js, FastAPI, Python, PostgreSQL.
-- **Infrastructure:** Docker, Git/GitHub (Advanced workflows), AWS, Linux.
+### 🌐 Web & DevOps
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,firebase,docker,git,github,aws" />
+</p>
 
 ---
 
@@ -54,11 +57,11 @@ I am a Software Engineer with a Bachelor’s degree from the Virtual University 
 
 These repositories and documentation samples represent my approach to high-complexity AI engineering:
 
-- **Autonomous Code Auditor:** A multi-agent system designed to perform deep security and performance audits on AI-generated codebases.
-- **Semantic Asset Navigator (RAG):** A production-ready Unity extension using local vector embeddings (ChromaDB) for intent-based code discovery.
-- **Self-Healing Build System:** A LangGraph-driven agent that autonomously diagnoses and resolves compilation errors in real-time.
-- **Autonomous B2B Lead Gen:** An end-to-end research and outreach engine utilizing Tavily AI for hyper-personalized prospect engagement.
-- **Project Alya:** A full-stack social orchestration engine featuring advanced React swiping mechanics and agentic matching logic.
+- **Autonomous Code Auditor:** Multi-agent system for security and performance audits.
+- **Semantic Asset Navigator (RAG):** Unity extension using local vector embeddings (ChromaDB).
+- **Self-Healing Build System:** LangGraph-driven agent for autonomous error resolution.
+- **Autonomous B2B Lead Gen:** Research and outreach engine utilizing Tavily AI.
+- **Project Alya:** Full-stack social orchestration featuring advanced React swiping mechanics.
 
 ---
 
