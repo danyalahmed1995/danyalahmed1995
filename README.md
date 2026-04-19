@@ -84,8 +84,6 @@ Here are a few repositories worth checking out:
 - **Leet-code-problems-solution**  
   Problem solving and coding practice archive
 
-> You can pin your best repositories from your GitHub profile so they show here visually on the Overview tab.
-
 ---
 
 ## 📊 GitHub Stats
