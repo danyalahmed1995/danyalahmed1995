@@ -53,14 +53,18 @@ I am a Software Engineer with a Bachelor’s degree from the Virtual University 
 
 ---
 
-## 🛠 Featured Portfolio (Technical Whitepapers)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=FF0000&vCenter=true&center=true&width=600&lines=🛠+Featured+Portfolio;📄+Technical+Whitepapers" alt="Typing SVG" />
+</p>
 
-These repositories and documentation samples represent my approach to high-complexity AI engineering:
+<p align="center">
+  <b>Repositories and documentation samples representing high-complexity AI engineering:</b>
+</p>
 
-- **Autonomous Code Auditor:** Multi-agent system for security and performance audits.
-- **Semantic Asset Navigator (RAG):** Unity extension using local vector embeddings (ChromaDB).
-- **Self-Healing Build System:** LangGraph-driven agent for autonomous error resolution.
-- **Autonomous B2B Lead Gen:** Research and outreach engine utilizing Tavily AI.
+- $\color{red}{\text{Autonomous Code Auditor:}}$ Multi-agent system for security and performance audits.
+- $\color{red}{\text{Semantic Asset Navigator (RAG):}}$ Unity extension using local vector embeddings (ChromaDB).
+- $\color{red}{\text{Self-Healing Build System:}}$ LangGraph-driven agent for autonomous error resolution.
+- $\color{red}{\text{Autonomous B2B Lead Gen:}}$ Research and outreach engine utilizing Tavily AI.
 
 ---
 
@@ -77,5 +81,5 @@ These repositories and documentation samples represent my approach to high-compl
 
 - **Upwork:** `https://www.upwork.com/freelancers/danyalahmed1995`
 - **Fiverr:** `https://www.fiverr.com/danyalahmed1995`
-- **LinkedIn:**`https://www.linkedin.com/in/danyal-ahmed-4a6262135`
+- **LinkedIn:** `https://www.linkedin.com/in/danyal-ahmed-4a6262135`
 - **Location:** Karachi, Pakistan 🇵🇰
