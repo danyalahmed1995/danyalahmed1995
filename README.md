@@ -36,9 +36,14 @@ I am a Software Engineer with a Bachelor’s degree from the Virtual University 
   <br>
   <img src="https://img.shields.io/badge/LangChain-121011?style=for-the-badge&logo=langchain&logoColor=white" />
   <img src="https://img.shields.io/badge/LangGraph-6D28D9?style=for-the-badge&logo=graph&logoColor=white" />
+  <img src="https://img.shields.io/badge/CrewAI-000000?style=for-the-badge&logo=crewai&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenClaw-FF4500?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Anthropic_Claude-75013F?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <br>
   <img src="https://img.shields.io/badge/ChromaDB-FFDC00?style=for-the-badge&logo=databricks&logoColor=black" />
   <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" />
   <img src="https://img.shields.io/badge/Llama_3.3-0668E1?style=for-the-badge&logo=meta&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tavily_AI-000000?style=for-the-badge&logo=openai&logoColor=white" />
 </p>
 
 ### 🎮 Game & Systems Engineering
