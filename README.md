@@ -1,8 +1,12 @@
-<h1 align="center">Danyal Ahmed</h1>
-<h3 align="center">Senior Unity Developer • Game Systems Engineer • Exploring AI & Automation</h3>
+<p align="center">
+  <a href="https://github.com/danyalahmed1995">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=45&pause=1000&color=FF8C00&vCenter=true&center=true&width=600&lines=Danyal+Ahmed;AI+Systems+Architect;Senior+Unity+Engineer;Full-Stack+Developer" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
-  I build scalable game systems, backend-connected features, multiplayer flows, and production-ready mobile experiences.
+  <b>Software Engineer & AI Systems Architect</b> based in Karachi, Pakistan. 
+  Specializing in autonomous agent orchestration, local RAG architectures, and scalable game systems.
 </p>
 
 <p align="center">
@@ -13,76 +17,48 @@
 
 ---
 
-## 🚀 About Me
+## 🚀 Professional Profile
 
-- 🎮 Senior Unity developer focused on gameplay systems, mobile architecture, and production debugging
-- ⚙️ Experienced with Firebase, multiplayer flows, game economy, progression systems, IAP, and backend-connected features
-- 📱 Building mobile-first products with a strong focus on reliability, UX flow, and scalable code structure
-- 🤖 Currently expanding into AI tools, automation workflows, and agent-based applications
-- 🧠 I enjoy solving messy technical problems, especially the kind that sit between gameplay, backend, and platform behavior
+I am a Software Engineer with a Bachelor’s degree from the Virtual University of Pakistan, currently focused on bridging the gap between traditional software architecture and the frontier of Agentic AI. With over half a decade of experience in **Unity and C# Systems**, I have pivoted into architecting **Multi-Agent Workflows** that prioritize autonomy, privacy, and production-grade stability.
 
----
-
-## ⚡ Tech Stack
-
-### Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=cs,js,ts,python" />
-</p>
-
-### Game Development
-<p>
-  <img src="https://skillicons.dev/icons?i=unity" />
-</p>
-
-### Backend & Web
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,react,firebase" />
-</p>
-
-### Tools & Cloud
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,aws,docker" />
-</p>
+- 🤖 **AI Architect:** Expert in designing cyclic, self-correcting state machines using **LangGraph**.
+- ⚙️ **Systems Engineer:** Specialist in "Self-Healing" build pipelines and automated code auditing.
+- 🎮 **Game Developer:** Senior Unity engineer with a focus on multiplayer architecture and editor tooling.
+- 🧠 **RAG Specialist:** Experienced in implementing high-density context retrieval using local vector stores.
 
 ---
 
-## 🛠 What I Work On
+## ⚡ Technical Stack
 
-- Unity game systems
-- Mobile game architecture
-- Multiplayer and matchmaking flows
-- Firebase integration
-- In-app purchases and monetization systems
-- UI flow and state-heavy game panels
-- Debugging platform-specific issues on Android and iOS
-- AI-assisted workflows and automation experiments
+### 🧠 Artificial Intelligence & Orchestration
+- **Frameworks:** LangChain, LangGraph, AutoGen, CrewAI.
+- **Vector Databases:** ChromaDB (Local-first), Pinecone, Milvus.
+- **Retrieval Logic:** RAG (Retrieval-Augmented Generation), Semantic Chunking, Cosine Similarity.
+- **LLM Integration:** Llama 3.3 (70B/8B), Groq (High-speed inference), OpenAI, Anthropic (Claude).
+- **Tooling:** Tavily AI (Deep Research), Prompt Engineering, Agentic Memory Management.
+
+### 🎮 Game Development & Systems
+- **Engine:** Unity3D (Senior Level).
+- **Languages:** C#, C++, Python, TypeScript.
+- **Networking:** Photon Bolt/PUN, Mirror, Firebase Real-time Database.
+- **Editor Tooling:** Custom C# Editor Extensions, Automated Asset Pipelines.
+
+### 🌐 Full-Stack & DevOps
+- **Frontend:** React, Next.js, Tailwind CSS.
+- **Backend:** Node.js, FastAPI, Python, PostgreSQL.
+- **Infrastructure:** Docker, Git/GitHub (Advanced workflows), AWS, Linux.
 
 ---
 
-## 🌌 Current Focus
+## 🛠 Featured Portfolio (Technical Whitepapers)
 
-- Building stronger public case studies and portfolio projects
-- Expanding from Unity engineering into AI-powered products
-- Creating polished, production-style systems instead of throwaway demos
+These repositories and documentation samples represent my approach to high-complexity AI engineering:
 
----
-
-## 📌 Featured Repositories
-
-Here are a few repositories worth checking out:
-
-- **Unity-Photon-Multiplayer-Lobby-Matchmaking**  
-  Template project for multiplayer lobby and matchmaking flow in Unity
-
-- **Firebase-Series**  
-  Firebase integration examples and backend-connected feature work
-
-- **Google-Play-Services**  
-  Test and integration work related to Google Play services
-
-- **Leet-code-problems-solution**  
-  Problem solving and coding practice archive
+- **Autonomous Code Auditor:** A multi-agent system designed to perform deep security and performance audits on AI-generated codebases.
+- **Semantic Asset Navigator (RAG):** A production-ready Unity extension using local vector embeddings (ChromaDB) for intent-based code discovery.
+- **Self-Healing Build System:** A LangGraph-driven agent that autonomously diagnoses and resolves compilation errors in real-time.
+- **Autonomous B2B Lead Gen:** An end-to-end research and outreach engine utilizing Tavily AI for hyper-personalized prospect engagement.
+- **Project Alya:** A full-stack social orchestration engine featuring advanced React swiping mechanics and agentic matching logic.
 
 ---
 
@@ -93,12 +69,11 @@ Here are a few repositories worth checking out:
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danyalahmed1995&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=danyalahmed1995&theme=tokyonight&hide_border=true" />
-</p>
-
 ---
 
-## 🤝 Connect
+## 🤝 Let's Connect
 
-- Fiverr: `https://www.fiverr.com/danyalahmed1995`
+- **Upwork:** `https://www.upwork.com/freelancers/danyalahmed1995`
+- **Fiverr:** `https://www.fiverr.com/danyalahmed1995`
+- **LinkedIn:**`https://www.linkedin.com/in/danyal-ahmed-4a6262135`
+- **Location:** Karachi, Pakistan 🇵🇰
