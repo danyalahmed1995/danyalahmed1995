@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=FF8C00&center=true&vCenter=true&width=600&lines=Danyal+Ahmed;AI+Systems+Architect;Senior+Unity+Engineer;Full-Stack+Developer" alt="Danyal Ahmed Typing" />
+  <a href="https://github.com/danyalahmed1995">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=45&pause=1000&color=FF8C00&vCenter=true&center=true&width=600&lines=Danyal+Ahmed;AI+Systems+Architect;Senior+Unity+Engineer;Full-Stack+Developer" alt="Typing SVG" />
+  </a>
 </p>
 
 <p align="center">
@@ -21,7 +23,7 @@ I am a Software Engineer with a Bachelor’s degree from the Virtual University 
 
 - 🤖 **AI Architect:** Expert in designing cyclic, self-correcting state machines using **LangGraph**.
 - ⚙️ **Systems Engineer:** Specialist in "Self-Healing" build pipelines and automated code auditing.
-- 🎮 **Senior Unity Developer:** Deep expertise in multiplayer architecture and editor tooling.
+- 🎮 **Game Developer:** Senior Unity engineer with a focus on multiplayer architecture and editor tooling.
 - 🧠 **RAG Specialist:** Experienced in implementing high-density context retrieval using local vector stores.
 
 ---
@@ -51,16 +53,14 @@ I am a Software Engineer with a Bachelor’s degree from the Virtual University 
 
 ---
 
-## 🔴 <kbd>Featured Portfolio & Case Studies</kbd>
+## 🛠 Featured Portfolio (Technical Whitepapers)
 
-<p align="left">
-  <i>The following represent my architectural approach to high-complexity AI engineering:</i>
-</p>
+These projects represent my architectural approach to production-grade AI engineering:
 
-* 📕 **Autonomous Code Auditor:** Multi-agent system designed for automated security and performance audits.
-* 📕 **Semantic Asset Navigator (RAG):** High-performance Unity extension using local vector embeddings (ChromaDB).
-* 📕 **Self-Healing Build System:** LangGraph-driven agent that autonomously diagnoses and resolves compilation errors.
-* 📕 **Autonomous B2B Lead Gen:** End-to-end research and outreach engine utilizing Tavily AI.
+- **Autonomous Code Auditor:** Multi-agent system designed for automated security and performance audits of AI-generated code.
+- **Semantic Asset Navigator (RAG):** A high-performance Unity extension using local vector embeddings (ChromaDB) for intent-based code discovery.
+- **Self-Healing Build System:** A LangGraph-driven autonomous agent that diagnoses and resolves compilation errors in real-time.
+- **Autonomous B2B Lead Gen:** An end-to-end research and outreach engine utilizing Tavily AI for hyper-personalized prospect engagement.
 
 ---
 
