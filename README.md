@@ -61,8 +61,3 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
 ## 🛠 Featured Portfolio
 
 - ⚡ **[Prompt Pipeline](https://github.com/danyalahmed1995/PromptPipeline)**: Turns large codebases into structured AI execution plans for ChatGPT & Codex.
-
----
-
-## 🤝 Let's Connect
-- **LinkedIn:**`https://www.linkedin.com/in/danyal-ahmed-4a6262135`
