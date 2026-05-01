@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Software Engineer & AI Systems Architect</b> based in Karachi, Pakistan. 
+  <b>Game Dev & AI Systems Architect</b> 
   Specializing in autonomous agent orchestration, local RAG architectures, and scalable game systems.
 </p>
 
@@ -58,29 +58,11 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
 
 ---
 
-## 🛠 Featured Portfolio (Technical Whitepapers)
+## 🛠 Featured Portfolio
 
-These projects represent my architectural approach to production-grade AI engineering:
-
-- **Autonomous Code Auditor:** Multi-agent system designed for automated security and performance audits of AI-generated code.
-- **Semantic Asset Navigator (RAG):** A high-performance Unity extension using local vector embeddings (ChromaDB) for intent-based code discovery.
-- **Self-Healing Build System:** A LangGraph-driven autonomous agent that diagnoses and resolves compilation errors in real-time.
-- **Autonomous B2B Lead Gen:** An end-to-end research and outreach engine utilizing Tavily AI for hyper-personalized prospect engagement.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=danyalahmed1995&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danyalahmed1995&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+- ⚡ **[Prompt Pipeline](https://github.com/danyalahmed1995/PromptPipeline)**: Turns large codebases into structured AI execution plans for ChatGPT & Codex.
 
 ---
 
 ## 🤝 Let's Connect
-
-- **Upwork:** `https://www.upwork.com/freelancers/danyalahmed1995`
-- **Fiverr:** `https://www.fiverr.com/danyalahmed1995`
 - **LinkedIn:**`https://www.linkedin.com/in/danyal-ahmed-4a6262135`
-- **Location:** Karachi, Pakistan 🇵🇰
