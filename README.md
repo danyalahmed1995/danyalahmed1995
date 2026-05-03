@@ -61,3 +61,7 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
 ## 🛠 Featured Portfolio
 
 - ⚡ **[Prompt Pipeline](https://github.com/danyalahmed1995/PromptPipeline)**: Turns large codebases into structured AI execution plans for ChatGPT & Codex.
+
+- ⚡ **[DocuVerdict](https://github.com/danyalahmed1995/PromptPipeline)**: AI-powered document extraction and QA workbench that validates structured outputs (JSON) against real-world data like invoices and reports.
+
+- ⚡ **[AgentRun Ledger](https://github.com/danyalahmed1995/PromptPipeline)**: Local-first CLI + dashboard that tracks AI agent sessions with file changes, command logs, and auto-generated audit reports.
