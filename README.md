@@ -65,3 +65,5 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
 - ⚡ **[DocuVerdict](https://github.com/danyalahmed1995/DocuVerdict)**: AI-powered document extraction and QA workbench that validates structured outputs (JSON) against real-world data like invoices and reports.
 
 - ⚡ **[AgentRun Ledger](https://github.com/danyalahmed1995/AgentRun-Ledger)**: Local-first CLI + dashboard that tracks AI agent sessions with file changes, command logs, and auto-generated audit reports.
+
+- ⚡ **[RAG Regression Lab](https://github.com/danyalahmed1995/RAG-Regression-Lab)**: A regression testing and evaluation tool for RAG systems with a visual dashboard, deterministic scoring, and agent-aware logging to detect and prevent silent AI failures.
