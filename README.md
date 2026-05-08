@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Game Dev & AI Systems Architect</b> 
+  <b>Game Dev & AI Systems Architect</b>  
   Specializing in autonomous agent orchestration, local RAG architectures, and scalable game systems.
 </p>
 
@@ -68,4 +68,43 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
 
 - ⚡ **[RAG Regression Lab](https://github.com/danyalahmed1995/RAG-Regression-Lab)**: A regression testing and evaluation tool for RAG systems with a visual dashboard, deterministic scoring, and agent-aware logging to detect and prevent silent AI failures.
 
-- ⚡ **[OpsPilot](https://github.com/danyalahmed1995/OpsPilot)**: Internal Business Operations Platform
+- ⚡ **[OpsPilot](https://github.com/danyalahmed1995/OpsPilot)**: Internal Business Operations Platform.
+
+---
+
+## 🌍 Open Source Contributions
+
+### Major Project Contributions
+
+| Organization | Repository | Contribution | Status |
+|---|---|---|---|
+| <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | Fixed the Benchmarks GitHub Actions workflow by correcting package working directories and benchmark script paths. | ✅ [Merged PR #1826](https://github.com/microsoft/agent-governance-toolkit/pull/1826) |
+
+### Contribution Highlights
+
+- 🛠 **CI Workflow Fix:** Repaired a benchmark workflow in Microsoft’s Agent Governance Toolkit by aligning GitHub Actions working directories with the actual package structure.
+- 🔎 **Issue Discovery:** Reported the broken benchmark workflow path issue before submitting the fix.
+- ✅ **Merged Upstream:** Contribution accepted and merged into the official `microsoft/agent-governance-toolkit` repository.
+
+<p align="left">
+  <a href="https://github.com/microsoft/agent-governance-toolkit/pull/1826">
+    <img src="https://img.shields.io/badge/Microsoft%20OSS-Merged%20PR%20%231826-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft OSS Merged PR" />
+  </a>
+  <a href="https://github.com/microsoft/agent-governance-toolkit/issues/1825">
+    <img src="https://img.shields.io/badge/Issue%20%231825-Workflow%20Path%20Bug-orange?style=for-the-badge&logo=github" alt="Issue 1825" />
+  </a>
+</p>
+
+---
+
+## 🎯 Current Focus
+
+- Building practical AI tooling for agentic development workflows.
+- Improving RAG evaluation, document extraction QA, and autonomous coding pipelines.
+- Contributing focused fixes to open-source AI, agent, and developer-tooling ecosystems.
+
+---
+
+<p align="center">
+  <b>AI systems, game engineering, and open-source fixes with receipts.</b>
+</p>
