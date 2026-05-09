@@ -79,12 +79,16 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
 | Organization | Repository | Contribution | Status |
 |---|---|---|---|
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | Fixed the Benchmarks GitHub Actions workflow by correcting package working directories and benchmark script paths. | ✅ [Merged PR #1826](https://github.com/microsoft/agent-governance-toolkit/pull/1826) |
+| <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed an incorrect `siteConfig.url` anchor in the i18n tutorial so it points to the correct Docusaurus config docs section. | ✅ [Merged PR #12002](https://github.com/facebook/docusaurus/pull/12002) |
+| <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed `@docusaurus/plugin-client-redirects` so external redirect targets are preserved instead of being modified by trailing-slash normalization. | ✅ [Merged PR #12004](https://github.com/facebook/docusaurus/pull/12004) |
 
 ### Contribution Highlights
 
 - 🛠 **CI Workflow Fix:** Repaired a benchmark workflow in Microsoft’s Agent Governance Toolkit by aligning GitHub Actions working directories with the actual package structure.
 - 🔎 **Issue Discovery:** Reported the broken benchmark workflow path issue before submitting the fix.
-- ✅ **Merged Upstream:** Contribution accepted and merged into the official `microsoft/agent-governance-toolkit` repository.
+- 📚 **Docs Accuracy:** Fixed a Meta Docusaurus i18n tutorial link where `siteConfig.url` incorrectly pointed to the `baseUrl` docs anchor.
+- 🔁 **Redirect Behavior Fix:** Updated Docusaurus client redirects so absolute external URLs are preserved under `trailingSlash` handling.
+- ✅ **Merged Upstream:** Contributions accepted and merged into official Microsoft and Meta open-source repositories.
 
 <p align="left">
   <a href="https://github.com/microsoft/agent-governance-toolkit/pull/1826">
@@ -92,6 +96,12 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
   </a>
   <a href="https://github.com/microsoft/agent-governance-toolkit/issues/1825">
     <img src="https://img.shields.io/badge/Issue%20%231825-Workflow%20Path%20Bug-orange?style=for-the-badge&logo=github" alt="Issue 1825" />
+  </a>
+  <a href="https://github.com/facebook/docusaurus/pull/12002">
+    <img src="https://img.shields.io/badge/Meta%20OSS-Merged%20PR%20%2312002-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta OSS Merged PR 12002" />
+  </a>
+  <a href="https://github.com/facebook/docusaurus/pull/12004">
+    <img src="https://img.shields.io/badge/Meta%20OSS-Merged%20PR%20%2312004-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta OSS Merged PR 12004" />
   </a>
 </p>
 
