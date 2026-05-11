@@ -88,6 +88,8 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
 - 🔎 **Issue Discovery:** Reported the broken benchmark workflow path issue before submitting the fix.
 - 📚 **Docs Accuracy:** Fixed a Meta Docusaurus i18n tutorial link where `siteConfig.url` incorrectly pointed to the `baseUrl` docs anchor.
 - 🔁 **Redirect Behavior Fix:** Updated Docusaurus client redirects so absolute external URLs are preserved under `trailingSlash` handling.
+- 🧩 **Editor Import Fix:** Fixed a Lexical HTML paste/import edge case where nested `<br>` elements inside `<code>` were not detected as multiline code.
+- 💬 **Issue Triage Support:** Helped validate and close a Continue.dev issue by confirming the fix behavior and providing follow-up context.
 - ✅ **Merged Upstream:** Contributions accepted and merged into official Microsoft and Meta open-source repositories.
 
 <p align="left">
@@ -102,6 +104,12 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
   </a>
   <a href="https://github.com/facebook/docusaurus/pull/12004">
     <img src="https://img.shields.io/badge/Meta%20OSS-Merged%20PR%20%2312004-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta OSS Merged PR 12004" />
+  </a>
+  <a href="https://github.com/facebook/lexical/pull/8487">
+    <img src="https://img.shields.io/badge/Meta%20OSS-Merged%20PR%20%238487-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta OSS Merged PR 8487" />
+  </a>
+  <a href="https://github.com/continuedev/continue/issues/12312#issuecomment-4405784670">
+    <img src="https://img.shields.io/badge/Continue.dev-Issue%20Triage%20Support-6f42c1?style=for-the-badge&logo=github" alt="Continue.dev Issue Triage Support" />
   </a>
 </p>
 
