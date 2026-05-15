@@ -84,6 +84,7 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed an incorrect `siteConfig.url` anchor in the i18n tutorial so it points to the correct Docusaurus config docs section. | [Merged PR #12002](https://github.com/facebook/docusaurus/pull/12002) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed `@docusaurus/plugin-client-redirects` so external redirect targets are preserved instead of being modified by trailing-slash normalization. | [Merged PR #12004](https://github.com/facebook/docusaurus/pull/12004) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/lexical](https://github.com/facebook/lexical) | Fixed nested `<br>` detection in pasted code blocks by returning recursive DOM tag matches and adding regression coverage. | [Merged PR #8487](https://github.com/facebook/lexical/pull/8487) |
+| <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/content](https://github.com/mdn/content) | Removed an outdated SVG `overflow` support warning after confirming the page’s Baseline/browser compatibility data showed broad support. | [Merged PR #44107](https://github.com/mdn/content/pull/44107) |
 
 ### Contribution Highlights
 
@@ -96,6 +97,7 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
 - **Editor Import Fix:** Fixed a Lexical HTML paste/import edge case where nested `<br>` elements inside `<code>` were not detected as multiline code.
 - **Issue Triage Support:** Helped validate and close a Continue.dev issue by confirming the fix behavior and providing follow-up context.
 - **Merged Upstream:** Contributions accepted and merged into official Microsoft and Meta open-source repositories.
+- **Mozilla Docs Accuracy:** Removed an outdated SVG `overflow` warning from MDN after verifying the page’s Baseline/browser compatibility information showed broad browser support.
 
 <p align="left">
   <a href="https://github.com/microsoft/agent-framework/pull/5709">
@@ -121,6 +123,9 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
   </a>
   <a href="https://github.com/continuedev/continue/issues/12312#issuecomment-4405784670">
     <img src="https://img.shields.io/badge/Continue.dev-Issue%20Triage%20Support-6f42c1?style=for-the-badge&logo=github" alt="Continue.dev Issue Triage Support" />
+  </a>
+    <a href="https://github.com/mdn/content/pull/44107">
+    <img src="https://img.shields.io/badge/Mozilla%20MDN-Merged%20PR%20%2344107-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla MDN Merged PR 44107" />
   </a>
 </p>
 
