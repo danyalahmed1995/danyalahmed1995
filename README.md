@@ -78,30 +78,41 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
 
 | Organization | Repository | Contribution | Status |
 |---|---|---|---|
+| <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google" /> | [google/go-github](https://github.com/google/go-github) | Added GitHub App enterprise installation lookup support by implementing `AppsService.FindEnterpriseInstallation(ctx, enterprise)` for `GET /enterprises/{enterprise}/installation`, including regression coverage and review-driven API naming discussion. | [Merged PR #4230](https://github.com/google/go-github/pull/4230) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | Fixed an Anthropic provider integration regression by aligning `Microsoft.Extensions.AI` usage around `WebSearchToolResultContent.Results`. | [Merged PR #5709](https://github.com/microsoft/agent-framework/pull/5709) |
+| <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed `@docusaurus/plugin-client-redirects` so external redirect targets are preserved instead of being modified by trailing-slash normalization. | [Merged PR #12004](https://github.com/facebook/docusaurus/pull/12004) |
+| <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/lexical](https://github.com/facebook/lexical) | Fixed nested `<br>` detection in pasted code blocks by returning recursive DOM tag matches and adding regression coverage. | [Merged PR #8487](https://github.com/facebook/lexical/pull/8487) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | Fixed the Benchmarks GitHub Actions workflow by correcting package working directories and benchmark script paths. | [Merged PR #1826](https://github.com/microsoft/agent-governance-toolkit/pull/1826) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | Fixed an MLX Phi-4 reasoning notebook by creating the missing `./data` directory before exporting generated JSONL train/validation files. | [Merged PR #535](https://github.com/microsoft/PhiCookBook/pull/535) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed an incorrect `siteConfig.url` anchor in the i18n tutorial so it points to the correct Docusaurus config docs section. | [Merged PR #12002](https://github.com/facebook/docusaurus/pull/12002) |
-| <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed `@docusaurus/plugin-client-redirects` so external redirect targets are preserved instead of being modified by trailing-slash normalization. | [Merged PR #12004](https://github.com/facebook/docusaurus/pull/12004) |
-| <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/lexical](https://github.com/facebook/lexical) | Fixed nested `<br>` detection in pasted code blocks by returning recursive DOM tag matches and adding regression coverage. | [Merged PR #8487](https://github.com/facebook/lexical/pull/8487) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/content](https://github.com/mdn/content) | Removed an outdated SVG `overflow` support warning after confirming the page’s Baseline/browser compatibility data showed broad support. | [Merged PR #44107](https://github.com/mdn/content/pull/44107) |
 
 ### Contribution Highlights
 
+- **Google SDK Feature:** Added enterprise GitHub App installation lookup support to `google/go-github`, including tests and review discussion around long-term public API naming consistency.
 - **AI Framework Regression Fix:** Fixed a Microsoft Agent Framework integration issue involving Anthropic provider support and `Microsoft.Extensions.AI` version alignment.
-- **AI Notebook Runtime Fix:** Fixed a Microsoft PhiCookBook MLX fine-tuning notebook that wrote JSONL outputs to a missing `./data` directory in fresh checkouts.
-- **CI Workflow Fix:** Repaired a benchmark workflow in Microsoft’s Agent Governance Toolkit by aligning GitHub Actions working directories with the actual package structure.
-- **Issue Discovery:** Reported the broken benchmark workflow path issue before submitting the fix.
-- **Docs Accuracy:** Fixed a Meta Docusaurus i18n tutorial link where `siteConfig.url` incorrectly pointed to the `baseUrl` docs anchor.
 - **Redirect Behavior Fix:** Updated Docusaurus client redirects so absolute external URLs are preserved under `trailingSlash` handling.
 - **Editor Import Fix:** Fixed a Lexical HTML paste/import edge case where nested `<br>` elements inside `<code>` were not detected as multiline code.
+- **CI Workflow Fix:** Repaired a benchmark workflow in Microsoft’s Agent Governance Toolkit by aligning GitHub Actions working directories with the actual package structure.
+- **Issue Discovery:** Reported the broken benchmark workflow path issue before submitting the fix.
+- **AI Notebook Runtime Fix:** Fixed a Microsoft PhiCookBook MLX fine-tuning notebook that wrote JSONL outputs to a missing `./data` directory in fresh checkouts.
+- **Docs Accuracy:** Fixed a Meta Docusaurus i18n tutorial link where `siteConfig.url` incorrectly pointed to the `baseUrl` docs anchor.
 - **Issue Triage Support:** Helped validate and close a Continue.dev issue by confirming the fix behavior and providing follow-up context.
-- **Merged Upstream:** Contributions accepted and merged into official Microsoft and Meta open-source repositories.
 - **Mozilla Docs Accuracy:** Removed an outdated SVG `overflow` warning from MDN after verifying the page’s Baseline/browser compatibility information showed broad browser support.
+- **Merged Upstream:** Contributions accepted and merged into official Google, Microsoft, Meta, and Mozilla open-source repositories.
 
 <p align="left">
+  <a href="https://github.com/google/go-github/pull/4230">
+    <img src="https://img.shields.io/badge/Google%20go--github-Merged%20PR%20%234230-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google go-github Merged PR 4230" />
+  </a>
   <a href="https://github.com/microsoft/agent-framework/pull/5709">
     <img src="https://img.shields.io/badge/Microsoft%20OSS-Merged%20PR%20%235709-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Agent Framework Merged PR 5709" />
+  </a>
+  <a href="https://github.com/facebook/docusaurus/pull/12004">
+    <img src="https://img.shields.io/badge/Meta%20Docusaurus-Merged%20PR%20%2312004-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Docusaurus Merged PR 12004" />
+  </a>
+  <a href="https://github.com/facebook/lexical/pull/8487">
+    <img src="https://img.shields.io/badge/Meta%20Lexical-Merged%20PR%20%238487-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Lexical Merged PR 8487" />
   </a>
   <a href="https://github.com/microsoft/agent-governance-toolkit/pull/1826">
     <img src="https://img.shields.io/badge/Microsoft%20OSS-Merged%20PR%20%231826-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Agent Governance Toolkit Merged PR 1826" />
@@ -109,25 +120,20 @@ I am a Software Engineer with a Bachelor’s degree from the PAF KIET University
   <a href="https://github.com/microsoft/PhiCookBook/pull/535">
     <img src="https://img.shields.io/badge/Microsoft%20PhiCookBook-Merged%20PR%20%23535-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft PhiCookBook Merged PR 535" />
   </a>
+  <a href="https://github.com/facebook/docusaurus/pull/12002">
+    <img src="https://img.shields.io/badge/Meta%20Docusaurus-Merged%20PR%20%2312002-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Docusaurus Merged PR 12002" />
+  </a>
   <a href="https://github.com/microsoft/agent-governance-toolkit/issues/1825">
     <img src="https://img.shields.io/badge/Issue%20%231825-Workflow%20Path%20Bug-orange?style=for-the-badge&logo=github" alt="Issue 1825" />
-  </a>
-  <a href="https://github.com/facebook/docusaurus/pull/12002">
-    <img src="https://img.shields.io/badge/Meta%20OSS-Merged%20PR%20%2312002-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta OSS Merged PR 12002" />
-  </a>
-  <a href="https://github.com/facebook/docusaurus/pull/12004">
-    <img src="https://img.shields.io/badge/Meta%20OSS-Merged%20PR%20%2312004-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta OSS Merged PR 12004" />
-  </a>
-  <a href="https://github.com/facebook/lexical/pull/8487">
-    <img src="https://img.shields.io/badge/Meta%20OSS-Merged%20PR%20%238487-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta OSS Merged PR 8487" />
   </a>
   <a href="https://github.com/continuedev/continue/issues/12312#issuecomment-4405784670">
     <img src="https://img.shields.io/badge/Continue.dev-Issue%20Triage%20Support-6f42c1?style=for-the-badge&logo=github" alt="Continue.dev Issue Triage Support" />
   </a>
-    <a href="https://github.com/mdn/content/pull/44107">
+  <a href="https://github.com/mdn/content/pull/44107">
     <img src="https://img.shields.io/badge/Mozilla%20MDN-Merged%20PR%20%2344107-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla MDN Merged PR 44107" />
   </a>
 </p>
+
 
 ---
 
