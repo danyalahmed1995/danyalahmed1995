@@ -31,6 +31,7 @@
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | Fixed an MLX Phi-4 reasoning notebook by creating the missing `./data` directory before exporting generated JSONL train/validation files. | [Merged PR #535](https://github.com/microsoft/PhiCookBook/pull/535) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed an incorrect `siteConfig.url` anchor in the i18n tutorial so it points to the correct Docusaurus config docs section. | [Merged PR #12002](https://github.com/facebook/docusaurus/pull/12002) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/content](https://github.com/mdn/content) | Clarified the CSS `<angle>` docs so unitless `0` is not presented as generally valid, preserving the legacy-context nuance and removing bare `0` from the null-angle equivalence example. | [Merged PR #44147](https://github.com/mdn/content/pull/44147) |
+| <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/content](https://github.com/mdn/content) | Clarified the SVG `<feOffset>` filter example by making `filterUnits="userSpaceOnUse"` explicit, preventing readers from misreading `width` and `height` as user-space dimensions under the default `objectBoundingBox` behavior. | [Merged PR #44148](https://github.com/mdn/content/pull/44148) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/content](https://github.com/mdn/content) | Removed an outdated SVG `overflow` support warning after confirming the page’s Baseline/browser compatibility data showed broad support. | [Merged PR #44107](https://github.com/mdn/content/pull/44107) |
 
 ### Contribution Highlights
@@ -45,8 +46,8 @@
 - **Docs Accuracy:** Fixed a Meta Docusaurus i18n tutorial link where `siteConfig.url` incorrectly pointed to the `baseUrl` docs anchor.
 - **Issue Triage Support:** Helped validate and close a Continue.dev issue by confirming the fix behavior and providing follow-up context.
 - **Mozilla CSS Spec Accuracy:** Clarified MDN’s CSS `<angle>` documentation so unitless `0` is not presented as generally valid, while preserving the legacy-context nuance and removing bare `0` from the null-angle example.
+- **Mozilla SVG Filter Accuracy:** Clarified MDN’s `<feOffset>` example by explicitly setting `filterUnits="userSpaceOnUse"` so `width` and `height` are taught as user-space dimensions instead of relying on SVG’s default `objectBoundingBox` behavior.
 - **Mozilla Docs Accuracy:** Removed an outdated SVG `overflow` warning from MDN after verifying the page’s Baseline/browser compatibility information showed broad browser support.
-- **Merged Upstream:** Contributions accepted and merged into official Google, Microsoft, Meta, and Mozilla open-source repositories.
 
 <p align="left">
   <a href="https://github.com/google/go-github/pull/4230">
@@ -78,6 +79,9 @@
   </a>
   <a href="https://github.com/mdn/content/pull/44147">
     <img src="https://img.shields.io/badge/Mozilla%20MDN-Merged%20PR%20%2344147-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla MDN Merged PR 44147" />
+  </a>
+  <a href="https://github.com/mdn/content/pull/44148">
+    <img src="https://img.shields.io/badge/Mozilla%20MDN-Merged%20PR%20%2344148-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla MDN Merged PR 44148" />
   </a>
   <a href="https://github.com/mdn/content/pull/44107">
     <img src="https://img.shields.io/badge/Mozilla%20MDN-Merged%20PR%20%2344107-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla MDN Merged PR 44107" />
