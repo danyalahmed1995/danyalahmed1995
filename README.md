@@ -27,6 +27,8 @@
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | Fixed an Anthropic provider integration regression by aligning `Microsoft.Extensions.AI` usage around `WebSearchToolResultContent.Results`. | [Merged PR #5709](https://github.com/microsoft/agent-framework/pull/5709) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed `@docusaurus/plugin-client-redirects` so external redirect targets are preserved instead of being modified by trailing-slash normalization. | [Merged PR #12004](https://github.com/facebook/docusaurus/pull/12004) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/lexical](https://github.com/facebook/lexical) | Fixed nested `<br>` detection in pasted code blocks by returning recursive DOM tag matches and adding regression coverage. | [Merged PR #8487](https://github.com/facebook/lexical/pull/8487) |
+| <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mozilla/pdf.js](https://github.com/mozilla/pdf.js) | Fixed PDF.js text-layer selection/highlight alignment by preventing inherited `letter-spacing` and `word-spacing` from affecting the text layer and its hidden measurement canvas, with regression coverage for inherited spacing. | [Merged PR #21321](https://github.com/mozilla/pdf.js/pull/21321) |
+| <img src="https://img.shields.io/badge/OpenTelemetry-4F3BAB?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" /> | [open-telemetry/opentelemetry-js-contrib](https://github.com/open-telemetry/opentelemetry-js-contrib) | Helped close an `instrumentation-runtime-node` feature request by validating the `v8.getHeapStatistics` heap-size-limit coverage and confirming that aggregating per-space `v8js.memory.heap.used` values covers the requested used/limit computation. | [Closed Issue #3518](https://github.com/open-telemetry/opentelemetry-js-contrib/issues/3518#issuecomment-4532505005) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) | Improved MDN Browser Compat Data lint tooling so targeted `lint:fix` runs fail when unfixable lint errors remain after the fixer runs, preventing false-success lint/pre-commit workflows after maintainer performance review. | [Merged PR #29690](https://github.com/mdn/browser-compat-data/pull/29690) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | Fixed the Benchmarks GitHub Actions workflow by correcting package working directories and benchmark script paths. | [Merged PR #1826](https://github.com/microsoft/agent-governance-toolkit/pull/1826) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | Fixed an MLX Phi-4 reasoning notebook by creating the missing `./data` directory before exporting generated JSONL train/validation files. | [Merged PR #535](https://github.com/microsoft/PhiCookBook/pull/535) |
@@ -41,6 +43,8 @@
 - **AI Framework Regression Fix:** Fixed a Microsoft Agent Framework integration issue involving Anthropic provider support and `Microsoft.Extensions.AI` version alignment.
 - **Redirect Behavior Fix:** Updated Docusaurus client redirects so absolute external URLs are preserved under `trailingSlash` handling.
 - **Editor Import Fix:** Fixed a Lexical HTML paste/import edge case where nested `<br>` elements inside `<code>` were not detected as multiline code.
+- **PDF.js Text Layer Fix:** Prevented inherited `letter-spacing` and `word-spacing` from affecting PDF.js text-layer positioning, keeping selection/highlight alignment stable and adding regression coverage.
+- **OpenTelemetry Runtime Metrics Triage:** Helped close an `instrumentation-runtime-node` feature request by confirming the heap-size-limit implementation path and validating the used/limit aggregation behavior with the issue author.
 - **Mozilla BCD Tooling Fix:** Improved MDN Browser Compat Data `lint:fix` so targeted fixer runs fail when unfixable lint errors remain, preventing false-success lint/pre-commit workflows after maintainer discussion and performance testing.
 - **CI Workflow Fix:** Repaired a benchmark workflow in Microsoft’s Agent Governance Toolkit by aligning GitHub Actions working directories with the actual package structure.
 - **Issue Discovery:** Reported the broken benchmark workflow path issue before submitting the fix.
@@ -63,6 +67,12 @@
   </a>
   <a href="https://github.com/facebook/lexical/pull/8487">
     <img src="https://img.shields.io/badge/Meta%20Lexical-Merged%20PR%20%238487-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Lexical Merged PR 8487" />
+  </a>
+  <a href="https://github.com/mozilla/pdf.js/pull/21321">
+    <img src="https://img.shields.io/badge/Mozilla%20pdf.js-Merged%20PR%20%2321321-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla pdf.js Merged PR 21321" />
+  </a>
+  <a href="https://github.com/open-telemetry/opentelemetry-js-contrib/issues/3518#issuecomment-4532505005">
+    <img src="https://img.shields.io/badge/OpenTelemetry-Issue%20%233518%20Closed-4F3BAB?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry Issue 3518 Closed" />
   </a>
   <a href="https://github.com/microsoft/agent-governance-toolkit/pull/1826">
     <img src="https://img.shields.io/badge/Microsoft%20OSS-Merged%20PR%20%231826-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Agent Governance Toolkit Merged PR 1826" />
