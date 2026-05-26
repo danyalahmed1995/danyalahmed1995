@@ -28,6 +28,7 @@
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed `@docusaurus/plugin-client-redirects` so external redirect targets are preserved instead of being modified by trailing-slash normalization. | [Merged PR #12004](https://github.com/facebook/docusaurus/pull/12004) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/lexical](https://github.com/facebook/lexical) | Fixed nested `<br>` detection in pasted code blocks by returning recursive DOM tag matches and adding regression coverage. | [Merged PR #8487](https://github.com/facebook/lexical/pull/8487) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mozilla/pdf.js](https://github.com/mozilla/pdf.js) | Fixed PDF.js text-layer selection/highlight alignment by preventing inherited `letter-spacing` and `word-spacing` from affecting the text layer and its hidden measurement canvas, with regression coverage for inherited spacing. | [Merged PR #21321](https://github.com/mozilla/pdf.js/pull/21321) |
+| <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /> | [gradio-app/gradio](https://github.com/gradio-app/gradio) | Fixed a `gr.Dataframe(datatype="auto")` runtime crash for empty and one-dimensional list/NumPy values by guarding datatype inference before two-dimensional indexing and adding regression coverage for edge cases missed by earlier closed PR attempts. | [Merged PR #13391](https://github.com/gradio-app/gradio/pull/13391) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) | Improved MDN Browser Compat Data lint tooling so targeted `lint:fix` runs fail when unfixable lint errors remain after the fixer runs, preventing false-success lint/pre-commit workflows after maintainer performance review. | [Merged PR #29690](https://github.com/mdn/browser-compat-data/pull/29690) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | Fixed the Benchmarks GitHub Actions workflow by correcting package working directories and benchmark script paths. | [Merged PR #1826](https://github.com/microsoft/agent-governance-toolkit/pull/1826) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | Fixed an MLX Phi-4 reasoning notebook by creating the missing `./data` directory before exporting generated JSONL train/validation files. | [Merged PR #535](https://github.com/microsoft/PhiCookBook/pull/535) |
@@ -43,12 +44,14 @@
 - **Redirect Behavior Fix:** Updated Docusaurus client redirects so absolute external URLs are preserved under `trailingSlash` handling.
 - **Editor Import Fix:** Fixed a Lexical HTML paste/import edge case where nested `<br>` elements inside `<code>` were not detected as multiline code.
 - **PDF.js Text Layer Fix:** Prevented inherited `letter-spacing` and `word-spacing` from affecting PDF.js text-layer positioning, keeping selection/highlight alignment stable and adding regression coverage.
+- **Hugging Face / Gradio Runtime Fix:** Fixed a `gr.Dataframe(datatype="auto")` crash for empty and one-dimensional list/NumPy inputs, adding regression tests for the full edge-case family after two earlier PR attempts were closed.
 - **Mozilla BCD Tooling Fix:** Improved MDN Browser Compat Data `lint:fix` so targeted fixer runs fail when unfixable lint errors remain, preventing false-success lint/pre-commit workflows after maintainer discussion and performance testing.
 - **CI Workflow Fix:** Repaired a benchmark workflow in Microsoft’s Agent Governance Toolkit by aligning GitHub Actions working directories with the actual package structure.
 - **Issue Discovery:** Reported the broken benchmark workflow path issue before submitting the fix.
 - **AI Notebook Runtime Fix:** Fixed a Microsoft PhiCookBook MLX fine-tuning notebook that wrote JSONL outputs to a missing `./data` directory in fresh checkouts.
 - **Docs Accuracy:** Fixed a Meta Docusaurus i18n tutorial link where `siteConfig.url` incorrectly pointed to the `baseUrl` docs anchor.
 - **Issue Triage Support:** Helped validate and close a Continue.dev issue by confirming the fix behavior and providing follow-up context.
+- **AWS CLI Issue Triage:** Helped close an AWS CLI `ssm start-session` port-forwarding issue by identifying and communicating the likely ownership boundary around local port bind failures and Session Manager plugin behavior.
 - **Mozilla CSS Spec Accuracy:** Clarified MDN’s CSS `<angle>` documentation so unitless `0` is not presented as generally valid, while preserving the legacy-context nuance and removing bare `0` from the null-angle example.
 - **Mozilla SVG Filter Accuracy:** Clarified MDN’s `<feOffset>` example by explicitly setting `filterUnits="userSpaceOnUse"` so `width` and `height` are taught as user-space dimensions instead of relying on SVG’s default `objectBoundingBox` behavior.
 - **Mozilla Docs Accuracy:** Removed an outdated SVG `overflow` warning from MDN after verifying the page’s Baseline/browser compatibility information showed broad browser support.
@@ -69,6 +72,9 @@
   <a href="https://github.com/mozilla/pdf.js/pull/21321">
     <img src="https://img.shields.io/badge/Mozilla%20pdf.js-Merged%20PR%20%2321321-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla pdf.js Merged PR 21321" />
   </a>
+  <a href="https://github.com/gradio-app/gradio/pull/13391">
+    <img src="https://img.shields.io/badge/Hugging%20Face%20Gradio-Merged%20PR%20%2313391-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Gradio Merged PR 13391" />
+  </a>
   <a href="https://github.com/open-telemetry/opentelemetry-js-contrib/issues/3518#issuecomment-4532505005">
     <img src="https://img.shields.io/badge/OpenTelemetry-Issue%20%233518%20Closed-4F3BAB?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry Issue 3518 Closed" />
   </a>
@@ -86,6 +92,9 @@
   </a>
   <a href="https://github.com/continuedev/continue/issues/12312#issuecomment-4405784670">
     <img src="https://img.shields.io/badge/Continue.dev-Issue%20Triage%20Support-6f42c1?style=for-the-badge&logo=github" alt="Continue.dev Issue Triage Support" />
+  </a>
+  <a href="https://github.com/aws/aws-cli/issues/10320#issuecomment-4544227483">
+    <img src="https://img.shields.io/badge/AWS%20CLI-Issue%20%2310320%20Closed-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS CLI Issue 10320 Closed" />
   </a>
   <a href="https://github.com/mdn/browser-compat-data/pull/29690">
     <img src="https://img.shields.io/badge/Mozilla%20BCD-Merged%20PR%20%2329690-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla BCD Merged PR 29690" />
