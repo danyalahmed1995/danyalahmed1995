@@ -25,6 +25,8 @@
 |---|---|---|---|
 | <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google" /> | [google/go-github](https://github.com/google/go-github) | Added GitHub App enterprise installation lookup support by implementing `AppsService.FindEnterpriseInstallation(ctx, enterprise)` for `GET /enterprises/{enterprise}/installation`, including regression coverage and review-driven API naming discussion. | [Merged PR #4230](https://github.com/google/go-github/pull/4230) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | Fixed an Anthropic provider integration regression by aligning `Microsoft.Extensions.AI` usage around `WebSearchToolResultContent.Results`. | [Merged PR #5709](https://github.com/microsoft/agent-framework/pull/5709) |
+| <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /> | [huggingface/transformers](https://github.com/huggingface/transformers) | Guarded the continuous batching `DeviceMesh` import so Transformers can import cleanly when `torch.distributed` is unavailable, while preserving `DeviceMesh` support when distributed features are available. | [Merged PR #46205](https://github.com/huggingface/transformers/pull/46205) |
+| <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" /> | [cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk) | Improved Wrangler API-token validation by detecting characters that cannot be encoded in the HTTP `Authorization` header, replacing the low-level `ByteString` failure with a clearer error and regression coverage. | [Merged PR #14002](https://github.com/cloudflare/workers-sdk/pull/14002) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed `@docusaurus/plugin-client-redirects` so external redirect targets are preserved instead of being modified by trailing-slash normalization. | [Merged PR #12004](https://github.com/facebook/docusaurus/pull/12004) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/lexical](https://github.com/facebook/lexical) | Fixed nested `<br>` detection in pasted code blocks by returning recursive DOM tag matches and adding regression coverage. | [Merged PR #8487](https://github.com/facebook/lexical/pull/8487) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mozilla/pdf.js](https://github.com/mozilla/pdf.js) | Fixed PDF.js text-layer selection/highlight alignment by preventing inherited `letter-spacing` and `word-spacing` from affecting the text layer and its hidden measurement canvas, with regression coverage for inherited spacing. | [Merged PR #21321](https://github.com/mozilla/pdf.js/pull/21321) |
@@ -40,8 +42,15 @@
 
 ### Contribution Highlights
 
+<details>
+<summary><strong>View contribution highlights</strong></summary>
+
+<br>
+
 - **Google SDK Feature:** Added enterprise GitHub App installation lookup support to `google/go-github`, including tests and review discussion around long-term public API naming consistency.
 - **AI Framework Regression Fix:** Fixed a Microsoft Agent Framework integration issue involving Anthropic provider support and `Microsoft.Extensions.AI` version alignment.
+- **Hugging Face Transformers Import Fix:** Guarded the continuous-batching `DeviceMesh` import so Transformers no longer fails to import when `torch.distributed` is unavailable, while keeping distributed support active when available.
+- **Cloudflare Wrangler Error Handling:** Replaced a cryptic `ByteString` failure for invalid `CLOUDFLARE_API_TOKEN` characters with a clearer Wrangler error, backed by regression coverage for problematic token characters.
 - **Redirect Behavior Fix:** Updated Docusaurus client redirects so absolute external URLs are preserved under `trailingSlash` handling.
 - **Editor Import Fix:** Fixed a Lexical HTML paste/import edge case where nested `<br>` elements inside `<code>` were not detected as multiline code.
 - **PDF.js Text Layer Fix:** Prevented inherited `letter-spacing` and `word-spacing` from affecting PDF.js text-layer positioning, keeping selection/highlight alignment stable and adding regression coverage.
@@ -58,12 +67,19 @@
 - **Mozilla SVG Filter Accuracy:** Clarified MDN’s `<feOffset>` example by explicitly setting `filterUnits="userSpaceOnUse"` so `width` and `height` are taught as user-space dimensions instead of relying on SVG’s default `objectBoundingBox` behavior.
 - **Mozilla Docs Accuracy:** Removed an outdated SVG `overflow` warning from MDN after verifying the page’s Baseline/browser compatibility information showed broad browser support.
 
+</details>
 <p align="left">
   <a href="https://github.com/google/go-github/pull/4230">
     <img src="https://img.shields.io/badge/Google%20go--github-Merged%20PR%20%234230-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google go-github Merged PR 4230" />
   </a>
   <a href="https://github.com/microsoft/agent-framework/pull/5709">
     <img src="https://img.shields.io/badge/Microsoft%20OSS-Merged%20PR%20%235709-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Agent Framework Merged PR 5709" />
+  </a>
+  <a href="https://github.com/huggingface/transformers/pull/46205">
+    <img src="https://img.shields.io/badge/Hugging%20Face%20Transformers-Merged%20PR%20%2346205-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face Transformers Merged PR 46205" />
+  </a>
+  <a href="https://github.com/cloudflare/workers-sdk/pull/14002">
+    <img src="https://img.shields.io/badge/Cloudflare%20Workers--SDK-Merged%20PR%20%2314002-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare Workers SDK Merged PR 14002" />
   </a>
   <a href="https://github.com/facebook/docusaurus/pull/12004">
     <img src="https://img.shields.io/badge/Meta%20Docusaurus-Merged%20PR%20%2312004-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Docusaurus Merged PR 12004" />
