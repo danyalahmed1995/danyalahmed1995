@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=danyalahmed1995&theme=github-dark&hide_border=true&area=true&custom_title=Danyal%20Ahmed's%20Contribution%20Activity" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=danyalahmed1995&theme=github-dark&hide_border=true&area=true&custom_title=OSS's%20Contribution%20Activity" alt="GitHub Activity Graph" />
 </p>
 
 ---
@@ -31,6 +31,11 @@
 ## Open Source Contributions
 
 ### Major Project Contributions
+
+<details>
+<summary><strong>View major project contributions</strong></summary>
+
+<br>
 
 | Organization | Repository | Contribution | Status |
 |---|---|---|---|
@@ -47,9 +52,12 @@
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | Fixed the Benchmarks GitHub Actions workflow by correcting package working directories and benchmark script paths. | [Merged PR #1826](https://github.com/microsoft/agent-governance-toolkit/pull/1826) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook) | Fixed an MLX Phi-4 reasoning notebook by creating the missing `./data` directory before exporting generated JSONL train/validation files. | [Merged PR #535](https://github.com/microsoft/PhiCookBook/pull/535) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed an incorrect `siteConfig.url` anchor in the i18n tutorial so it points to the correct Docusaurus config docs section. | [Merged PR #12002](https://github.com/facebook/docusaurus/pull/12002) |
+| <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/content](https://github.com/mdn/content) | Documented cross-browser Manifest V3 background fallback behavior in the WebExtensions `background` manifest docs by explaining how extensions can pair `background.scripts` with `background.service_worker`, while clarifying when `background.preferred_environment` is needed. | [Merged PR #44108](https://github.com/mdn/content/pull/44108) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/content](https://github.com/mdn/content) | Clarified the CSS `<angle>` docs so unitless `0` is not presented as generally valid, preserving the legacy-context nuance and removing bare `0` from the null-angle equivalence example. | [Merged PR #44147](https://github.com/mdn/content/pull/44147) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/content](https://github.com/mdn/content) | Clarified the SVG `<feOffset>` filter example by making `filterUnits="userSpaceOnUse"` explicit, preventing readers from misreading `width` and `height` as user-space dimensions under the default `objectBoundingBox` behavior. | [Merged PR #44148](https://github.com/mdn/content/pull/44148) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mdn/content](https://github.com/mdn/content) | Removed an outdated SVG `overflow` support warning after confirming the page’s Baseline/browser compatibility data showed broad support. | [Merged PR #44107](https://github.com/mdn/content/pull/44107) |
+
+</details>
 
 ### Contribution Highlights
 
@@ -74,6 +82,7 @@
 - **Docs Accuracy:** Fixed a Meta Docusaurus i18n tutorial link where `siteConfig.url` incorrectly pointed to the `baseUrl` docs anchor.
 - **Issue Triage Support:** Helped validate and close a Continue.dev issue by confirming the fix behavior and providing follow-up context.
 - **AWS CLI Issue Triage:** Helped close an AWS CLI `ssm start-session` port-forwarding issue by identifying and communicating the likely ownership boundary around local port bind failures and Session Manager plugin behavior.
+- **Mozilla WebExtensions MV3 Docs:** Documented cross-browser Manifest V3 background fallback behavior by clarifying how `background.scripts` and `background.service_worker` work together, plus when `background.preferred_environment` is actually needed.
 - **Mozilla CSS Spec Accuracy:** Clarified MDN’s CSS `<angle>` documentation so unitless `0` is not presented as generally valid, while preserving the legacy-context nuance and removing bare `0` from the null-angle example.
 - **Mozilla SVG Filter Accuracy:** Clarified MDN’s `<feOffset>` example by explicitly setting `filterUnits="userSpaceOnUse"` so `width` and `height` are taught as user-space dimensions instead of relying on SVG’s default `objectBoundingBox` behavior.
 - **Mozilla Docs Accuracy:** Removed an outdated SVG `overflow` warning from MDN after verifying the page’s Baseline/browser compatibility information showed broad browser support.
@@ -131,6 +140,9 @@
   <a href="https://github.com/mdn/browser-compat-data/pull/29690">
     <img src="https://img.shields.io/badge/Mozilla%20BCD-Merged%20PR%20%2329690-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla BCD Merged PR 29690" />
   </a>
+  <a href="https://github.com/mdn/content/pull/44108">
+    <img src="https://img.shields.io/badge/Mozilla%20MDN-Merged%20PR%20%2344108-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla MDN Merged PR 44108" />
+  </a>
   <a href="https://github.com/mdn/content/pull/44147">
     <img src="https://img.shields.io/badge/Mozilla%20MDN-Merged%20PR%20%2344147-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla MDN Merged PR 44147" />
   </a>
@@ -141,6 +153,7 @@
     <img src="https://img.shields.io/badge/Mozilla%20MDN-Merged%20PR%20%2344107-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla MDN Merged PR 44107" />
   </a>
 </p>
+
 
 ---
 
