@@ -15,6 +15,16 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=danyalahmed1995&theme=github-dark-blue&hide_border=true&border_radius=8" alt="GitHub Streak" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=danyalahmed1995&theme=github-dark&hide_border=true&area=true&custom_title=Danyal%20Ahmed's%20Contribution%20Activity" alt="GitHub Activity Graph" />
+</p>
+
 ---
 
 ## Open Source Contributions
