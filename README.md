@@ -15,14 +15,13 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=danyalahmed1995&theme=github-dark-blue&hide_border=true&border_radius=8" alt="GitHub Streak" />
-  </a>
+<p align="center"> 
+  <img src="https://img.shields.io/badge/OSS%20STREAK-BOSS%20HUD-ff8c00?style=for-the-badge&logo=github&logoColor=white" alt="OSS Streak Boss HUD" /> 
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=danyalahmed1995&theme=github-dark&hide_border=true&area=true&custom_title=Danyal%20Ahmed's%20Contribution%20Activity" alt="GitHub Activity Graph" />
+<p align="center"> 
+  <a href="https://git.io/streak-stats"> <img src="https://streak-stats.demolab.com?user=danyalahmed1995&theme=github-dark-blue&hide_border=true&border_radius=10&card_width=520&card_height=200&ring=2F81F7&fire=FF8C00&currStreakLabel=FF8C00&sideLabels=58A6FF&dates=8B949E" alt="GitHub Streak" /> 
+  </a> 
 </p>
 
 ---
