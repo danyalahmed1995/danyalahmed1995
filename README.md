@@ -22,10 +22,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=danyalahmed1995&theme=github-dark&hide_border=true&area=true&custom_title=OSS's%20Contribution%20Activity" alt="GitHub Activity Graph" />
-</p>
-
 ---
 
 ## Open Source Contributions
