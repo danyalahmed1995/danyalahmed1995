@@ -39,6 +39,7 @@
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | Fixed an Anthropic provider integration regression by aligning `Microsoft.Extensions.AI` usage around `WebSearchToolResultContent.Results`. | [Merged PR #5709](https://github.com/microsoft/agent-framework/pull/5709) |
 | <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /> | [huggingface/transformers](https://github.com/huggingface/transformers) | Guarded the continuous batching `DeviceMesh` import so Transformers can import cleanly when `torch.distributed` is unavailable, while preserving `DeviceMesh` support when distributed features are available. | [Merged PR #46205](https://github.com/huggingface/transformers/pull/46205) |
 | <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" /> | [cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk) | Improved Wrangler API-token validation by detecting characters that cannot be encoded in the HTTP `Authorization` header, replacing the low-level `ByteString` failure with a clearer error and regression coverage. | [Merged PR #14002](https://github.com/cloudflare/workers-sdk/pull/14002) |
+| <img src="https://img.shields.io/badge/Moby-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Moby" /> | [moby/moby](https://github.com/moby/moby) | Documented the `--firewall-backend` daemon option in the `dockerd` manual page after `dockerd --help` exposed the flag but `man dockerd` did not. | [Merged PR #52696](https://github.com/moby/moby/pull/52696) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed `@docusaurus/plugin-client-redirects` so external redirect targets are preserved instead of being modified by trailing-slash normalization. | [Merged PR #12004](https://github.com/facebook/docusaurus/pull/12004) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/lexical](https://github.com/facebook/lexical) | Fixed nested `<br>` detection in pasted code blocks by returning recursive DOM tag matches and adding regression coverage. | [Merged PR #8487](https://github.com/facebook/lexical/pull/8487) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mozilla/pdf.js](https://github.com/mozilla/pdf.js) | Fixed PDF.js text-layer selection/highlight alignment by preventing inherited `letter-spacing` and `word-spacing` from affecting the text layer and its hidden measurement canvas, with regression coverage for inherited spacing. | [Merged PR #21321](https://github.com/mozilla/pdf.js/pull/21321) |
@@ -66,6 +67,7 @@
 - **AI Framework Regression Fix:** Fixed a Microsoft Agent Framework integration issue involving Anthropic provider support and `Microsoft.Extensions.AI` version alignment.
 - **Hugging Face Transformers Import Fix:** Guarded the continuous-batching `DeviceMesh` import so Transformers no longer fails to import when `torch.distributed` is unavailable, while keeping distributed support active when available.
 - **Cloudflare Wrangler Error Handling:** Replaced a cryptic `ByteString` failure for invalid `CLOUDFLARE_API_TOKEN` characters with a clearer Wrangler error, backed by regression coverage for problematic token characters.
+- **Moby Man Page Docs:** Documented the `dockerd --firewall-backend` daemon option in the Moby manual page after the flag appeared in `dockerd --help` but was missing from `man dockerd`.
 - **Redirect Behavior Fix:** Updated Docusaurus client redirects so absolute external URLs are preserved under `trailingSlash` handling.
 - **Editor Import Fix:** Fixed a Lexical HTML paste/import edge case where nested `<br>` elements inside `<code>` were not detected as multiline code.
 - **PDF.js Text Layer Fix:** Prevented inherited `letter-spacing` and `word-spacing` from affecting PDF.js text-layer positioning, keeping selection/highlight alignment stable and adding regression coverage.
@@ -96,6 +98,9 @@
   </a>
   <a href="https://github.com/cloudflare/workers-sdk/pull/14002">
     <img src="https://img.shields.io/badge/Cloudflare%20Workers--SDK-Merged%20PR%20%2314002-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare Workers SDK Merged PR 14002" />
+  </a>
+  <a href="https://github.com/moby/moby/pull/52696">
+    <img src="https://img.shields.io/badge/Moby-Merged%20PR%20%2352696-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Moby Merged PR 52696" />
   </a>
   <a href="https://github.com/facebook/docusaurus/pull/12004">
     <img src="https://img.shields.io/badge/Meta%20Docusaurus-Merged%20PR%20%2312004-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Docusaurus Merged PR 12004" />
