@@ -80,6 +80,8 @@
 - **Docs Accuracy:** Fixed a Meta Docusaurus i18n tutorial link where `siteConfig.url` incorrectly pointed to the `baseUrl` docs anchor.
 - **Issue Triage Support:** Helped validate and close a Continue.dev issue by confirming the fix behavior and providing follow-up context.
 - **AWS CLI Issue Triage:** Helped close an AWS CLI `ssm start-session` port-forwarding issue by identifying and communicating the likely ownership boundary around local port bind failures and Session Manager plugin behavior.
+- **Supabase PostgREST Issue Triage:** Helped close a Supabase issue involving persistent PostgREST `PGRST002` schema-cache 503 failures by narrowing the report around PostgREST recovery and infrastructure-side investigation.
+- **Supabase Auth UI Issue Triage:** Helped close a Supabase Auth Users UI race-condition report by clarifying the async store-mutator concern and its actionability boundary.
 - **Mozilla WebExtensions MV3 Docs:** Documented cross-browser Manifest V3 background fallback behavior by clarifying how `background.scripts` and `background.service_worker` work together, plus when `background.preferred_environment` is actually needed.
 - **Mozilla CSS Spec Accuracy:** Clarified MDN’s CSS `<angle>` documentation so unitless `0` is not presented as generally valid, while preserving the legacy-context nuance and removing bare `0` from the null-angle example.
 - **Mozilla SVG Filter Accuracy:** Clarified MDN’s `<feOffset>` example by explicitly setting `filterUnits="userSpaceOnUse"` so `width` and `height` are taught as user-space dimensions instead of relying on SVG’s default `objectBoundingBox` behavior.
@@ -138,6 +140,12 @@
   <a href="https://github.com/aws/aws-cli/issues/10320#issuecomment-4544227483">
     <img src="https://img.shields.io/badge/AWS%20CLI-Issue%20%2310320%20Closed-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS CLI Issue 10320 Closed" />
   </a>
+  <a href="https://github.com/supabase/supabase/issues/46237#issuecomment-4624939520">
+    <img src="https://img.shields.io/badge/Supabase-Issue%20%2346237%20Closed-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase Issue 46237 Closed" />
+  </a>
+  <a href="https://github.com/supabase/supabase/issues/46547#event-26295737193">
+    <img src="https://img.shields.io/badge/Supabase-Issue%20%2346547%20Closed-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase Issue 46547 Closed" />
+  </a>
   <a href="https://github.com/mdn/browser-compat-data/pull/29690">
     <img src="https://img.shields.io/badge/Mozilla%20BCD-Merged%20PR%20%2329690-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla BCD Merged PR 29690" />
   </a>
@@ -154,6 +162,7 @@
     <img src="https://img.shields.io/badge/Mozilla%20MDN-Merged%20PR%20%2344107-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla MDN Merged PR 44107" />
   </a>
 </p>
+
 
 
 ---
