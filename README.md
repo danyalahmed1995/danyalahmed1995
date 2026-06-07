@@ -199,15 +199,18 @@
 
 ## Featured Portfolio
 
-- **[Prompt Pipeline](https://github.com/danyalahmed1995/PromptPipeline)**: Turns large codebases into structured AI execution plans for ChatGPT & Codex.
+* <a href="https://github.com/danyalahmed1995/EXT"><img src="assets/ext-icon.png" width="42" align="center" alt="EXT icon" /></a> **[EXT](https://github.com/danyalahmed1995/EXT)**: Local-first Markdown and plain text workspace for organizing, reading, and editing existing `.md` and `.txt` files directly from the filesystem. Built with Tauri, Rust, React, Vite, and CodeMirror.
 
-- **[DocuVerdict](https://github.com/danyalahmed1995/DocuVerdict)**: AI-powered document extraction and QA workbench that validates structured outputs (JSON) against real-world data like invoices and reports.
+* **[Prompt Pipeline](https://github.com/danyalahmed1995/PromptPipeline)**: Turns large codebases into structured AI execution plans for ChatGPT & Codex.
 
-- **[AgentRun Ledger](https://github.com/danyalahmed1995/AgentRun-Ledger)**: Local-first CLI + dashboard that tracks AI agent sessions with file changes, command logs, and auto-generated audit reports.
+* **[DocuVerdict](https://github.com/danyalahmed1995/DocuVerdict)**: AI-powered document extraction and QA workbench that validates structured outputs against real-world data like invoices and reports.
 
-- **[RAG Regression Lab](https://github.com/danyalahmed1995/RAG-Regression-Lab)**: A regression testing and evaluation tool for RAG systems with a visual dashboard, deterministic scoring, and agent-aware logging to detect and prevent silent AI failures.
+* **[AgentRun Ledger](https://github.com/danyalahmed1995/AgentRun-Ledger)**: Local-first CLI and dashboard that tracks AI agent sessions with file changes, command logs, and auto-generated audit reports.
 
-- **[OpsPilot](https://github.com/danyalahmed1995/OpsPilot)**: Internal Business Operations Platform.
+* **[RAG Regression Lab](https://github.com/danyalahmed1995/RAG-Regression-Lab)**: Regression testing and evaluation tool for RAG systems with a visual dashboard, deterministic scoring, and agent-aware logging.
+
+* **[OpsPilot](https://github.com/danyalahmed1995/OpsPilot)**: Internal business operations platform.
+
 
 ---
 
