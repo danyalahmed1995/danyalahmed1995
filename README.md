@@ -39,6 +39,7 @@
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | Fixed an Anthropic provider integration regression by aligning `Microsoft.Extensions.AI` usage around `WebSearchToolResultContent.Results`. | [Merged PR #5709](https://github.com/microsoft/agent-framework/pull/5709) |
 | <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /> | [huggingface/transformers](https://github.com/huggingface/transformers) | Guarded the continuous batching `DeviceMesh` import so Transformers can import cleanly when `torch.distributed` is unavailable, while preserving `DeviceMesh` support when distributed features are available. | [Merged PR #46205](https://github.com/huggingface/transformers/pull/46205) |
 | <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" /> | [cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk) | Improved Wrangler API-token validation by detecting characters that cannot be encoded in the HTTP `Authorization` header, replacing the low-level `ByteString` failure with a clearer error and regression coverage. | [Merged PR #14002](https://github.com/cloudflare/workers-sdk/pull/14002) |
+| <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> | [vercel/next.js](https://github.com/vercel/next.js) | Fixed the `Instrumentation.onRequestError` docs example so the error parameter is treated as `unknown` and narrowed before reading `message`/`digest`, matching the current Next.js type contract. | [Merged PR #94518](https://github.com/vercel/next.js/pull/94518) |
 | <img src="https://img.shields.io/badge/Moby-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Moby" /> | [moby/moby](https://github.com/moby/moby) | Documented the `--firewall-backend` daemon option in the `dockerd` manual page after `dockerd --help` exposed the flag but `man dockerd` did not. | [Merged PR #52696](https://github.com/moby/moby/pull/52696) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed `@docusaurus/plugin-client-redirects` so external redirect targets are preserved instead of being modified by trailing-slash normalization. | [Merged PR #12004](https://github.com/facebook/docusaurus/pull/12004) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/lexical](https://github.com/facebook/lexical) | Fixed nested `<br>` detection in pasted code blocks by returning recursive DOM tag matches and adding regression coverage. | [Merged PR #8487](https://github.com/facebook/lexical/pull/8487) |
@@ -67,6 +68,7 @@
 - **AI Framework Regression Fix:** Fixed a Microsoft Agent Framework integration issue involving Anthropic provider support and `Microsoft.Extensions.AI` version alignment.
 - **Hugging Face Transformers Import Fix:** Guarded the continuous-batching `DeviceMesh` import so Transformers no longer fails to import when `torch.distributed` is unavailable, while keeping distributed support active when available.
 - **Cloudflare Wrangler Error Handling:** Replaced a cryptic `ByteString` failure for invalid `CLOUDFLARE_API_TOKEN` characters with a clearer Wrangler error, backed by regression coverage for problematic token characters.
+- **Next.js Instrumentation Docs Fix:** Corrected the `onRequestError` docs/example so the error parameter is handled as `unknown` and narrowed before reading `message` or `digest`, aligning the example with the current type contract.
 - **Moby Man Page Docs:** Documented the `dockerd --firewall-backend` daemon option in the Moby manual page after the flag appeared in `dockerd --help` but was missing from `man dockerd`.
 - **Redirect Behavior Fix:** Updated Docusaurus client redirects so absolute external URLs are preserved under `trailingSlash` handling.
 - **Editor Import Fix:** Fixed a Lexical HTML paste/import edge case where nested `<br>` elements inside `<code>` were not detected as multiline code.
@@ -80,8 +82,6 @@
 - **Docs Accuracy:** Fixed a Meta Docusaurus i18n tutorial link where `siteConfig.url` incorrectly pointed to the `baseUrl` docs anchor.
 - **Issue Triage Support:** Helped validate and close a Continue.dev issue by confirming the fix behavior and providing follow-up context.
 - **AWS CLI Issue Triage:** Helped close an AWS CLI `ssm start-session` port-forwarding issue by identifying and communicating the likely ownership boundary around local port bind failures and Session Manager plugin behavior.
-- **Supabase PostgREST Issue Triage:** Helped close a Supabase issue involving persistent PostgREST `PGRST002` schema-cache 503 failures by narrowing the report around PostgREST recovery and infrastructure-side investigation.
-- **Supabase Auth UI Issue Triage:** Helped close a Supabase Auth Users UI race-condition report by clarifying the async store-mutator concern and its actionability boundary.
 - **Mozilla WebExtensions MV3 Docs:** Documented cross-browser Manifest V3 background fallback behavior by clarifying how `background.scripts` and `background.service_worker` work together, plus when `background.preferred_environment` is actually needed.
 - **Mozilla CSS Spec Accuracy:** Clarified MDN’s CSS `<angle>` documentation so unitless `0` is not presented as generally valid, while preserving the legacy-context nuance and removing bare `0` from the null-angle example.
 - **Mozilla SVG Filter Accuracy:** Clarified MDN’s `<feOffset>` example by explicitly setting `filterUnits="userSpaceOnUse"` so `width` and `height` are taught as user-space dimensions instead of relying on SVG’s default `objectBoundingBox` behavior.
@@ -100,6 +100,9 @@
   </a>
   <a href="https://github.com/cloudflare/workers-sdk/pull/14002">
     <img src="https://img.shields.io/badge/Cloudflare%20Workers--SDK-Merged%20PR%20%2314002-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare Workers SDK Merged PR 14002" />
+  </a>
+  <a href="https://github.com/vercel/next.js/pull/94518">
+    <img src="https://img.shields.io/badge/Vercel%20Next.js-Merged%20PR%20%2394518-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Next.js Merged PR 94518" />
   </a>
   <a href="https://github.com/moby/moby/pull/52696">
     <img src="https://img.shields.io/badge/Moby-Merged%20PR%20%2352696-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Moby Merged PR 52696" />
@@ -139,12 +142,6 @@
   </a>
   <a href="https://github.com/aws/aws-cli/issues/10320#issuecomment-4544227483">
     <img src="https://img.shields.io/badge/AWS%20CLI-Issue%20%2310320%20Closed-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS CLI Issue 10320 Closed" />
-  </a>
-  <a href="https://github.com/supabase/supabase/issues/46237#issuecomment-4624939520">
-    <img src="https://img.shields.io/badge/Supabase-Issue%20%2346237%20Closed-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase Issue 46237 Closed" />
-  </a>
-  <a href="https://github.com/supabase/supabase/issues/46547#event-26295737193">
-    <img src="https://img.shields.io/badge/Supabase-Issue%20%2346547%20Closed-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase Issue 46547 Closed" />
   </a>
   <a href="https://github.com/mdn/browser-compat-data/pull/29690">
     <img src="https://img.shields.io/badge/Mozilla%20BCD-Merged%20PR%20%2329690-FF7139?style=for-the-badge&logo=mozilla&logoColor=white" alt="Mozilla BCD Merged PR 29690" />
