@@ -36,11 +36,13 @@
 | Organization | Repository | Contribution | Status |
 |---|---|---|---|
 | <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google" /> | [google/go-github](https://github.com/google/go-github) | Added GitHub App enterprise installation lookup support by implementing `AppsService.FindEnterpriseInstallation(ctx, enterprise)` for `GET /enterprises/{enterprise}/installation`, including regression coverage and review-driven API naming discussion. | [Merged PR #4230](https://github.com/google/go-github/pull/4230) |
+| <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google" /> | [google/adk-python](https://github.com/google/adk-python) | Fixed Windows test collection for `tests/unittests/tools/test_bash_tool.py` by adding a module-level Windows skip before importing Python's Unix-only `resource` module, with targeted Windows validation. | [Merged via Copybara #5680](https://github.com/google/adk-python/pull/5680) |
 | <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft" /> | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | Fixed an Anthropic provider integration regression by aligning `Microsoft.Extensions.AI` usage around `WebSearchToolResultContent.Results`. | [Merged PR #5709](https://github.com/microsoft/agent-framework/pull/5709) |
 | <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /> | [huggingface/transformers](https://github.com/huggingface/transformers) | Guarded the continuous batching `DeviceMesh` import so Transformers can import cleanly when `torch.distributed` is unavailable, while preserving `DeviceMesh` support when distributed features are available. | [Merged PR #46205](https://github.com/huggingface/transformers/pull/46205) |
 | <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" /> | [cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk) | Improved Wrangler API-token validation by detecting characters that cannot be encoded in the HTTP `Authorization` header, replacing the low-level `ByteString` failure with a clearer error and regression coverage. | [Merged PR #14002](https://github.com/cloudflare/workers-sdk/pull/14002) |
 | <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> | [vercel/next.js](https://github.com/vercel/next.js) | Fixed the `Instrumentation.onRequestError` docs example so the error parameter is treated as `unknown` and narrowed before reading `message`/`digest`, matching the current Next.js type contract. | [Merged PR #94518](https://github.com/vercel/next.js/pull/94518) |
 | <img src="https://img.shields.io/badge/Moby-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Moby" /> | [moby/moby](https://github.com/moby/moby) | Documented the `--firewall-backend` daemon option in the `dockerd` manual page after `dockerd --help` exposed the flag but `man dockerd` did not. | [Merged PR #52696](https://github.com/moby/moby/pull/52696) |
+| <img src="https://img.shields.io/badge/KhronosGroup-AC162C?style=flat-square&logo=vulkan&logoColor=white" alt="KhronosGroup" /> | [KhronosGroup/Vulkan-Hpp](https://github.com/KhronosGroup/Vulkan-Hpp) | Added 32-bit Ubuntu CI coverage using GCC/G++ multilib and `-m32` flags, keeping header generation and unit-test builds covered while skipping samples for the cross-compilation entry. | [Merged PR #2585](https://github.com/KhronosGroup/Vulkan-Hpp/pull/2585) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/docusaurus](https://github.com/facebook/docusaurus) | Fixed `@docusaurus/plugin-client-redirects` so external redirect targets are preserved instead of being modified by trailing-slash normalization. | [Merged PR #12004](https://github.com/facebook/docusaurus/pull/12004) |
 | <img src="https://img.shields.io/badge/Meta-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta" /> | [facebook/lexical](https://github.com/facebook/lexical) | Fixed nested `<br>` detection in pasted code blocks by returning recursive DOM tag matches and adding regression coverage. | [Merged PR #8487](https://github.com/facebook/lexical/pull/8487) |
 | <img src="https://img.shields.io/badge/Mozilla-FF7139?style=flat-square&logo=mozilla&logoColor=white" alt="Mozilla" /> | [mozilla/pdf.js](https://github.com/mozilla/pdf.js) | Fixed PDF.js text-layer selection/highlight alignment by preventing inherited `letter-spacing` and `word-spacing` from affecting the text layer and its hidden measurement canvas, with regression coverage for inherited spacing. | [Merged PR #21321](https://github.com/mozilla/pdf.js/pull/21321) |
@@ -65,11 +67,13 @@
 <br>
 
 - **Google SDK Feature:** Added enterprise GitHub App installation lookup support to `google/go-github`, including tests and review discussion around long-term public API naming consistency.
+- **Google ADK Python Test Fix:** Fixed Windows test collection for `tests/unittests/tools/test_bash_tool.py` by adding a module-level Windows skip before importing Python's Unix-only `resource` module, with targeted Windows/Python validation; merged via Copybara.
 - **AI Framework Regression Fix:** Fixed a Microsoft Agent Framework integration issue involving Anthropic provider support and `Microsoft.Extensions.AI` version alignment.
 - **Hugging Face Transformers Import Fix:** Guarded the continuous-batching `DeviceMesh` import so Transformers no longer fails to import when `torch.distributed` is unavailable, while keeping distributed support active when available.
 - **Cloudflare Wrangler Error Handling:** Replaced a cryptic `ByteString` failure for invalid `CLOUDFLARE_API_TOKEN` characters with a clearer Wrangler error, backed by regression coverage for problematic token characters.
 - **Next.js Instrumentation Docs Fix:** Corrected the `onRequestError` docs/example so the error parameter is handled as `unknown` and narrowed before reading `message` or `digest`, aligning the example with the current type contract.
 - **Moby Man Page Docs:** Documented the `dockerd --firewall-backend` daemon option in the Moby manual page after the flag appeared in `dockerd --help` but was missing from `man dockerd`.
+- **Khronos Vulkan-Hpp CI Coverage:** Added 32-bit Ubuntu CI coverage using GCC/G++ multilib and `-m32`, exercising header generation and unit-test builds while skipping samples for the cross-compilation entry.
 - **Redirect Behavior Fix:** Updated Docusaurus client redirects so absolute external URLs are preserved under `trailingSlash` handling.
 - **Editor Import Fix:** Fixed a Lexical HTML paste/import edge case where nested `<br>` elements inside `<code>` were not detected as multiline code.
 - **PDF.js Text Layer Fix:** Prevented inherited `letter-spacing` and `word-spacing` from affecting PDF.js text-layer positioning, keeping selection/highlight alignment stable and adding regression coverage.
@@ -94,6 +98,9 @@
   <a href="https://github.com/google/go-github/pull/4230">
     <img src="https://img.shields.io/badge/Google%20go--github-Merged%20PR%20%234230-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google go-github Merged PR 4230" />
   </a>
+  <a href="https://github.com/google/adk-python/pull/5680">
+    <img src="https://img.shields.io/badge/Google%20ADK--Python-Merged%20via%20Copybara%20%235680-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google ADK Python Merged via Copybara 5680" />
+  </a>
   <a href="https://github.com/microsoft/agent-framework/pull/5709">
     <img src="https://img.shields.io/badge/Microsoft%20OSS-Merged%20PR%20%235709-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Agent Framework Merged PR 5709" />
   </a>
@@ -108,6 +115,9 @@
   </a>
   <a href="https://github.com/moby/moby/pull/52696">
     <img src="https://img.shields.io/badge/Moby-Merged%20PR%20%2352696-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Moby Merged PR 52696" />
+  </a>
+  <a href="https://github.com/KhronosGroup/Vulkan-Hpp/pull/2585">
+    <img src="https://img.shields.io/badge/KhronosGroup%20Vulkan--Hpp-Merged%20PR%20%232585-AC162C?style=for-the-badge&logo=vulkan&logoColor=white" alt="KhronosGroup Vulkan-Hpp Merged PR 2585" />
   </a>
   <a href="https://github.com/facebook/docusaurus/pull/12004">
     <img src="https://img.shields.io/badge/Meta%20Docusaurus-Merged%20PR%20%2312004-0866FF?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Docusaurus Merged PR 12004" />
