@@ -57,28 +57,3 @@
 ## Featured Portfolio
 
 * <a href="https://github.com/danyalahmed1995/EXT"><img src="assets/ext-icon.png" width="42" align="center" alt="EXT icon" /></a> **[EXT](https://github.com/danyalahmed1995/EXT)**: Local-first Markdown and plain text workspace for organizing, reading, and editing existing `.md` and `.txt` files directly from the filesystem. Built with Tauri, Rust, React, Vite, and CodeMirror.
-
-* **[Prompt Pipeline](https://github.com/danyalahmed1995/PromptPipeline)**: Turns large codebases into structured AI execution plans for ChatGPT & Codex.
-
-* **[DocuVerdict](https://github.com/danyalahmed1995/DocuVerdict)**: AI-powered document extraction and QA workbench that validates structured outputs against real-world data like invoices and reports.
-
-* **[AgentRun Ledger](https://github.com/danyalahmed1995/AgentRun-Ledger)**: Local-first CLI and dashboard that tracks AI agent sessions with file changes, command logs, and auto-generated audit reports.
-
-* **[RAG Regression Lab](https://github.com/danyalahmed1995/RAG-Regression-Lab)**: Regression testing and evaluation tool for RAG systems with a visual dashboard, deterministic scoring, and agent-aware logging.
-
-* **[OpsPilot](https://github.com/danyalahmed1995/OpsPilot)**: Internal business operations platform.
-
-
----
-
-## Current Focus
-
-- Building practical AI tooling for agentic development workflows.
-- Improving RAG evaluation, document extraction QA, and autonomous coding pipelines.
-- Contributing focused fixes to open-source AI, agent, and developer-tooling ecosystems.
-
----
-
-<p align="center">
-  <b>AI systems, game engineering, and open-source fixes with receipts.</b>
-</p>
