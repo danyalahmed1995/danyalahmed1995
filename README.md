@@ -24,36 +24,6 @@
 
 ---
 
-## Tech Stack
-
-### AI & Agentic Orchestration
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,ts,nodejs" />
-  <br>
-  <img src="https://img.shields.io/badge/LangChain-121011?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-6D28D9?style=for-the-badge&logo=graph&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrewAI-000000?style=for-the-badge&logo=crewai&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenClaw-FF4500?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Anthropic_Claude-75013F?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <br>
-  <img src="https://img.shields.io/badge/ChromaDB-FFDC00?style=for-the-badge&logo=databricks&logoColor=black" />
-  <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" />
-  <img src="https://img.shields.io/badge/Llama_3.3-0668E1?style=for-the-badge&logo=meta&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tavily_AI-000000?style=for-the-badge&logo=openai&logoColor=white" />
-</p>
-
-### Game & Systems Engineering
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=unity,cs,cpp" />
-</p>
-
-### Web & DevOps
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,firebase,docker,git,github,aws" />
-</p>
-
----
-
-## Featured Portfolio
+## Featured Projects
 
 * <a href="https://github.com/danyalahmed1995/EXT"><img src="assets/ext-icon.png" width="42" align="center" alt="EXT icon" /></a> **[EXT](https://github.com/danyalahmed1995/EXT)**: Local-first Markdown and plain text workspace for organizing, reading, and editing existing `.md` and `.txt` files directly from the filesystem. Built with Tauri, Rust, React, Vite, and CodeMirror.
